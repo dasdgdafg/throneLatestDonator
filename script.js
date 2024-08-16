@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const throneId = urlParams.get('throndId');
+const throneId = urlParams.get('throneId');
 
 setInterval(update, 5000);
 
