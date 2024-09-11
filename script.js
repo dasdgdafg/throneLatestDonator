@@ -12,12 +12,12 @@ async function update() {
     }
 
     const json = await response.json();
-    name = json.lastTwentyGifters[0].gifterUsername;
-    if (!name) {
-    	name = "Anonymous"
+    name2 = json.lastTwentyGifters[0].gifterUsername;
+    if (!name2) {
+    	name2 = "Anonymous"
     }
-    console.log(name);
-    document.getElementById("user").textContent = name;
+    console.log(name2);
+    document.getElementById("user").textContent = name2;
   } catch (error) {
     console.error(error.message);
   }
